@@ -1,0 +1,88 @@
+body{
+background-color:#000066;
+font-family: "Gabriola";
+color:#00ff00;
+}
+#navigation {
+padding: 0;
+margin: 0;
+}
+#navigation li{
+diplay: inline;
+float: left;
+}
+#navigation a, #navigation a:visited {
+display:block;
+width: 5em;
+border: 1px solid #808;
+font-size: 0.8em;
+text-align: center;
+text-decoration: none;
+}
+
+
+#pic1 img{
+box-shadow:4px 4px 35px #aaa;
+}
+
+
+#pic2 img {
+border: 20px double #aaa
+}
+
+#pic3 img{
+border: 15px solid #aaa;
+padding: 10px;
+}
+
+#pic4 img{
+border-radius: 100%;
+}
+
+#pic5 img{
+opacity: 0.6;
+}
+<style>
+div.img {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+}
+
+div.img:hover {
+    border: 1px solid #777;
+}
+
+div.img img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+div.img {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+}	
+
+div.img:hover {
+    border: 1px solid #777;
+}
+
+div.img img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
